@@ -1,0 +1,18 @@
+{
+  "name": "assign-teams-backend",
+  "version": "0.0.1",
+  "description": "line bot backend for assign temas",
+  "main": "index.js",
+  "author": "poe <tiepoe@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build-sdk": "cd ../../; npm i; npm run build",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.3"
+  },
+  "devDependencies": {
+    "vercel": "^33.5.5"
+  }
+}
